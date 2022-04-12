@@ -1,6 +1,6 @@
 {
   "name": "wasm-pack",
-  "version": "0.10.0",
+  "version": "0.10.2",
   "description": "📦✨ your favorite rust -> wasm workflow tool!",
   "main": "binary.js",
   "scripts": {
@@ -31,5 +31,8 @@
   "homepage": "https://github.com/rustwasm/wasm-pack#readme",
   "dependencies": {
     "binary-install": "^0.1.0"
+  },
+  "resolutions": {
+    "axios": "0.21.2"
   }
 }
